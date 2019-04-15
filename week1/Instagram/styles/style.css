@@ -1,0 +1,115 @@
+body{
+    background-color:	#FAFAFB;
+}
+#insta-page{
+    width:450px;
+    position: absolute;
+    left:270px;
+    top:100px;
+}
+.login-block{
+    background-color: white;
+    width:320px;
+    height:600px;
+    position: relative;
+    left: 720px;
+    top:60px;
+    text-align: center;
+    border: rgb(177, 177, 177) solid 0.5px;
+}
+#logo{
+    width:200px;
+    margin-top:20px;
+    align-content: center
+}
+.reg{
+    margin-top: 1px;
+    color: #999;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+#fb_login{
+    height: 30px;
+    width: 270px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    border-radius: 5px 5px 5px 5px;
+}
+/* .ili{
+    margin-top:1px;
+    color: rgb(143, 141, 141);
+    font-size: 15px;
+    font-weight: bolder;
+    text-align: center;
+} */
+form hr{
+    width:60%;
+    height: 1px;
+    background-color: rgb(219, 216, 216);
+    border: none;
+    text-align: center;
+}
+
+hr::before{
+    content: "ИЛИ";
+    position: relative;
+    top: -9px;
+    background-color: white;
+    padding: 2px 3px;
+    color:#999;
+}
+.input {
+    margin-bottom: 15px;
+    width: 270px;
+    height:25px;
+    color:#999;
+    line-height: 25px;
+    font-size: 12px;
+    text-align: left;
+}
+.submit{
+    margin-bottom: 15px;
+    width: 270px;
+    height:30px;
+    line-height: 25px;
+    background-color: rgb(71, 152, 245);
+    color:white;
+    font-size:14px;
+    font-family: 'Hind Madurai', sans-serif;
+    border-radius: 5px 5px 5px 5px;
+    font-weight:bold;
+    box-shadow: none;
+
+}
+.cookies{
+    margin-top:1px;
+    color: #999;
+    font-size: 15px;
+    font-weight: lighter;
+    text-align: center;
+}
+.conditions{
+    text-decoration: none;
+    color: #999;
+    font-weight: bold;
+}
+#foot{
+    height:65px;
+    width:320px;
+    border: rgb(177, 177, 177) solid 0.5px;
+    line-height: 65px;
+    color:rgb(68, 68, 68);
+    background-color: white;
+    margin-bottom: 10px;
+
+}
+#app{
+    color:rgb(68, 68, 68);
+}
+#login{
+    text-decoration: none;
+    color:rgb(71, 152, 245);
+}
